@@ -10,8 +10,8 @@ function HomePage({addToCart})
     const [filter, setFilter] = useState("");
 
     useEffect(() => {
-        const x = ink.map((i) => i.discount = inkDiscount);
-        setItems(filter.trim() === "" ? ink : x.filter((i) => i.name.toLowerCase().includes(filter.toLowerCase()) || i.sku.includes(filter)));
+        ink.map((i) => i.discount = inkDiscount);
+        setItems(filter.trim() === "" ? ink : ink.filter((i) => i.name.toLowerCase().includes(filter.toLowerCase()) || i.sku.includes(filter)));
     }, [filter])
 
     return(
@@ -19,7 +19,7 @@ function HomePage({addToCart})
             <h1>Business Select Comparison</h1>
 
             <div className="container col-12 col-md-6">
-                <input onChange={(e) => setFilter(e.target.value)} className="form-control" placeholder="Search (Item Name or Sku)" />
+                <input onChange={(e) => setFilter(e.target.value)} value={filter} className="form-control" placeholder="Search (Item Name or Sku)" />
             </div>
 
             <div className="mt-4 col-12 p-4 d-flex col flex-wrap justify-content-start align-items-stretch">
