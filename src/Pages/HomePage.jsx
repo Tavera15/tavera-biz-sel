@@ -1,18 +1,34 @@
 import React, { useEffect, useState } from "react";
 import ProductCard from "../Components/ProductCard.jsx";
-import ink from "../Products/Ink_Toner.json";
+import HP_toner from "../Products/HPToner.json";
+import Brother_toner from "../Products/BrotherToner.json";
 
 function HomePage({addToCart})
 {
     const inkDiscount = 10;
 
+    const [ink, setInk] = useState([]);
     const [items, setItems] = useState([]);
     const [filter, setFilter] = useState("");
+    const [isLoaded, setIsLoaded] = useState(false)
 
     useEffect(() => {
-        ink.map((i) => i.discount = inkDiscount);
-        setItems(filter.trim() === "" ? ink : ink.filter((i) => i.name.toLowerCase().includes(filter.toLowerCase()) || i.sku.includes(filter)));
-    }, [filter])
+        if(HP_toner.length > 0 && Brother_toner.length > 0)
+        {
+            const allInk = ink.concat(HP_toner, Brother_toner);
+            setInk(allInk);
+            setIsLoaded(true);
+        }
+
+    },[HP_toner, Brother_toner])
+
+    useEffect(() => {
+        if(isLoaded)
+        {
+            ink.map((i) => i.discount = inkDiscount);
+            setItems(filter.trim() === "" ? ink : ink.filter((i) => i.name.toLowerCase().includes(filter.toLowerCase()) || i.sku.includes(filter)));
+        }
+    }, [isLoaded, filter])
 
     return(
         <div className="mt-4">
