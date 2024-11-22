@@ -5,7 +5,6 @@ import HomePage from './Pages/HomePage';
 import TavNarBar from './Components/TavNavBar';
 import CartPage from './Pages/CartPage';
 
-
 function App() {
   
   const [cart, setCart] = useState([]);
@@ -34,6 +33,9 @@ function App() {
 
   return (
       <div className='min-vh-100 bg-dark'>
+        <div className='container col-6 col-sm-3 col-md-3 col-lg-2'>
+          <img src="../public/TaveraLogo.png" className='col-12' alt='logo'/>
+        </div>
         <Router>
           <TavNarBar />
           <Routes>
