@@ -1,0 +1,176 @@
+[
+    {
+        "name": "OFFICE DEPOT OD05A (05A) REMAN BLACK TONER",
+        "sku": "762813",
+        "price": 72.49,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT 12A TONER (HP 12A) BLACK",
+        "sku": "648112",
+        "price": 82.99,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT 15A TONER (HP 15A) BLACK",
+        "sku": "578424",
+        "price": 62.99,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT (HP CB436A) REMAN BLACK TONER",
+        "sku": "230275",
+        "price": 49.99,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT 49A TONER (HP 49A) BLACK",
+        "sku": "502934",
+        "price": 95.99,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT 53A TONER (HP 53A) BLACK",
+        "sku": "614425",
+        "price": 95.49,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT 85A TONER (HP 85A) BLACK",
+        "sku": "652963",
+        "price": 82.49,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT (HP CE320A) REMAN BLACK TONER",
+        "sku": "228433",
+        "price": 70.49,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT (HP CE321A) REMAN CYAN TONER",
+        "sku": "228442",
+        "price": 66.99,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT (HP CE323A) REMAN MAGENTA TONER",
+        "sku": "228487",
+        "price": 66.99,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT (HP CE322A) REMAN YELLOW TONER",
+        "sku": "228469",
+        "price": 66.99,
+        "discount": 0
+    },
+    {
+        "name": "CIG (HP 201A / CF400A) REMAN BLACK TONER",
+        "sku": "746416",
+        "price": 68.49,
+        "discount": 0
+    },
+    {
+        "name": "CIG (HP 201A / CF401A) REMAN CYAN TONER",
+        "sku": "774497",
+        "price": 73.99,
+        "discount": 0
+    },
+    {
+        "name": "CIG (HP 201A / CF403A) REMAN MAGENTA TONER",
+        "sku": "916374",
+        "price": 73.99,
+        "discount": 0
+    },
+    {
+        "name": "CIG (HP 201A / CF402A) REMAN YELLOW TONER",
+        "sku": "633032",
+        "price": 73.99,
+        "discount": 0
+    },
+    {
+        "name": "CTG (HP 202A / CF500A) REMAN BLACK TONER",
+        "sku": "9309301",
+        "price": 57.99,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT 26 (CF226A) REMAN BLACK TONER",
+        "sku": "402146",
+        "price": 112.99,
+        "discount": 0
+    },
+    {
+        "name": "TONER REPL HP 30A BLK",
+        "sku": "5507646",
+        "price": 46.99,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT (HP CB435A) REMAN BLACK TONER",
+        "sku": "230266",
+        "price": 53.99,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT 78A TONER (HP 78A) BLACK",
+        "sku": "784518",
+        "price": 76.49,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT (HP 80A) REMAN BLACK TONER",
+        "sku": "106778",
+        "price": 92.49,
+        "discount": 0
+    },
+    {
+        "name": "OFFICE DEPOT OD83A REMAN BLACK TONER",
+        "sku": "712826",
+        "price": 57.99,
+        "discount": 0
+    },
+    {
+        "name": "CTG (HP CF210A) REMAN BLACK TONER",
+        "sku": "541266",
+        "price": 70.99,
+        "discount": 0
+    },
+    {
+        "name": "CTG (HP CF211A) REMAN CYAN TONER",
+        "sku": "541698",
+        "price": 74.49,
+        "discount": 0
+    },
+    {
+        "name": "CTG (HP CF213A) REMAN MAGENTA TONER",
+        "sku": "543165",
+        "price": 74.49,
+        "discount": 0
+    },
+    {
+        "name": "CTG (HP CF212A) REMAN YELLOW TONER",
+        "sku": "542355",
+        "price": 74.49,
+        "discount": 0
+    },
+    {
+        "name": "CTG (HP 202A / CF501A) REMAN CYAN TONER",
+        "sku": "8318929",
+        "price": 74.49,
+        "discount": 0
+    },
+    {
+        "name": "CTG (HP 202A / CF503A) REMAN MAGENTA TONER",
+        "sku": "6626160",
+        "price": 74.49,
+        "discount": 0
+    },
+    {
+        "name": "CTG (HP 202A / CF502A) REMAN YELLOW TONER",
+        "sku": "9678175",
+        "price": 74.49,
+        "discount": 0
+    }
+]

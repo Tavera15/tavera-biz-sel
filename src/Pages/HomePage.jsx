@@ -1,62 +1,36 @@
-import React, { useEffect, useState } from "react";
-import ProductCard from "../Components/ProductCard.jsx";
-import HP_toner from "../Products/HPToner.json";
-import Brother_toner from "../Products/BrotherToner.json";
+import React from "react";
+import cpdPrices from "/24x36 English Business Select CPD-2.png";
+import { Link } from "react-router-dom";
 
-function HomePage({addToCart})
+function HomePage()
 {
-    const inkDiscount = 10;
-
-    const [ink, setInk] = useState([]);
-    const [items, setItems] = useState([]);
-    const [filter, setFilter] = useState("");
-    const [isLoaded, setIsLoaded] = useState(false)
-
-    useEffect(() => {
-        if(HP_toner.length > 0 && Brother_toner.length > 0)
-        {
-            const allInk = ink.concat(HP_toner, Brother_toner);
-            setInk(allInk);
-            setIsLoaded(true);
-        }
-
-    },[HP_toner, Brother_toner])
-
-    useEffect(() => {
-        if(isLoaded)
-        {
-            ink.map((i) => i.discount = inkDiscount);
-            setItems(filter.trim() === "" ? ink : ink.filter((i) => i.name.toLowerCase().includes(filter.toLowerCase()) || i.sku.includes(filter)));
-        }
-    }, [isLoaded, filter])
 
     return(
-        <div className="mt-4">
-            <h1>Business Select Comparison</h1>
-
-            <div className="container col-12 col-md-6">
-                <input onChange={(e) => setFilter(e.target.value)} value={filter} className="form-control" placeholder="Search (Item Name or Sku)" />
+        <div className="p-4 justify-content-center align-items-center col-12">
+            <div className="mb-4">
+                <h1>Business Select Price Comparison</h1>
+                <h3>Compare Regular Price Items vs Business Select Pricing</h3>
             </div>
 
-            <div className="mt-4 col-12 p-4 d-flex col flex-wrap justify-content-start align-items-stretch">
-            {
-                items.length > 0
-                ?   items.map((p, i) => {
-                        return (
-                            <ProductCard
-                                item={p}
-                                sku={p.sku} 
-                                price={p.price} 
-                                name={p.name} 
-                                discount={p.discount} 
-                                key={i}
-                                btnText="Add to cart"
-                                btnAction={(e, item) => addToCart(e, item)}
-                            />
-                        )
-                    })
-                :   <h1>No results found</h1>
-            }
+            <hr />
+
+            <div>
+                <h1>Ink & Toner</h1>
+            </div>
+
+            <div className="container p-4 mb-4 d-flex justify-content-evenly">
+                <Link to="/products/ink/hp" className="col-2 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://static.vecteezy.com/system/resources/previews/019/909/664/non_2x/hp-transparent-hp-free-free-png.png" alt="HP"/></Link>
+                <Link to="/products/ink/brother" className="col-2 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://static.cdnlogo.com/logos/b/91/brother.png" alt="Brother"/></Link>
+                <Link to="/products/ink/canon" className="col-2 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://static.vecteezy.com/system/resources/previews/019/956/120/non_2x/canon-transparent-canon-free-free-png.png" alt="Canon"/></Link>
+                <Link to="/products/ink/epson" className="col-2 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://cdn.freebiesupply.com/logos/large/2x/epson-2-logo-png-transparent.png" alt="Epson"/></Link>
+                <Link to="/products/ink/od" className="col-2 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Office-depot-logo.png" alt="OD"/></Link>
+            </div>
+
+            <hr />
+
+            <div className="mt-4">
+                <h1>CPD Inventory will be added soon...</h1>
+                <img className="col-12 col-md-4" src={cpdPrices} alt="cpd"/>
             </div>
         </div>
     );

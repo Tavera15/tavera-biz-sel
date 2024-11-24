@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import {Button, Card} from 'react-bootstrap';
 
 function ProductCard({item, sku, name, price, discount, btnText, btnAction})
 {
+    const [added, setAdded] = useState(false)
     return(
-        <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 p-2 mt-4 d-flex">
+        <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 p-2 mt-2 d-flex">
             <Card>
                 <Card.Img
                     style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}}
