@@ -12,7 +12,7 @@ function TavNarBar()
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
-                    <NavDropdown title="Ink & Toner" id="basic-nav-dropdown">
+                    <NavDropdown className="navbar-brand" title="Ink & Toner" id="basic-nav-dropdown">
                     <NavDropdown.Item as={Link} to="/products/ink/hp">HP</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/ink/brother">Brother</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/ink/canon">Canon</NavDropdown.Item>
@@ -21,7 +21,7 @@ function TavNarBar()
                     </NavDropdown>
                 </Nav>
                 <Nav as={Navbar.Brand} className="navbar-brand me-auto">
-                    <NavDropdown title="Printers" id="basic-nav-dropdown">
+                    <NavDropdown className="navbar-brand" title="Printers" id="basic-nav-dropdown">
                     <NavDropdown.Item as={Link} to="/products/printers/hp">HP</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/printers/brother">Brother</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/printers/canon">Canon</NavDropdown.Item>

@@ -7,8 +7,12 @@ function HomePage()
 {
 
     return(
-        <div className="p-4 justify-content-center align-items-center col-12">
-            <div className="mb-4">
+        <div className="col-12 justify-content-center align-items-center">
+            <div className="mb-4 p-4 col-12" style={{
+                "backgroundImage": "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://png.pngtree.com/thumb_back/fw800/background/20240331/pngtree-monitor-in-the-room-office-work-view-city-night-image_15699394.jpg)", 
+                "backgroundRepeat": "no-repeat", 
+                "backgroundPosition": "center", 
+                "backgroundSize": "cover"}}>
                 <h1>Business Select Price Comparison</h1>
                 <img className="col-12 col-md-6" src={bsLogo} alt="bs-logo"/>
                 <h3>Compare Regular Price Items vs Business Select Pricing</h3>
@@ -43,8 +47,8 @@ function HomePage()
 
             <hr />
 
-            <div className="mt-4">
-                <h1>CPD Inventory will be added soon...</h1>
+            <div className="p-4">
+                <h4>CPD Inventory will be added soon...</h4>
                 <img className="col-12 col-md-4" src={cpdPrices} alt="cpd"/>
             </div>
         </div>
