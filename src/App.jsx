@@ -23,11 +23,10 @@ import EpsonPrinters from "./Products/Printers/EpsonPrinters.json";
 import CanonPrinters from "./Products/Printers/Canon.json";
 
 
-
 function App() {
   
   const inkDiscount = 10;
-  const techDiscount = 10;
+  const techDiscount = 5;
 
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInkLoaded, setInkLoaded] = useState(false);
@@ -35,13 +34,6 @@ function App() {
 
   const [cart, setCart] = useState([]);
   const [products, setProducts] = useState({});
-
-  const [HPInknToner, setHP] = useState([]);
-  const [BrotherInknToner, setBrother] = useState([]);
-  const [CanonInknToner, setCanon] = useState([]);
-  const [ODInknToner, setOD] = useState([]);
-  const [Epson, setEpson] = useState([]);
-
 
   useEffect(() => {
     setIsLoaded(isInkLoaded && isPrintersLoaded);
@@ -57,18 +49,12 @@ function App() {
             && !isInkLoaded
         )
     {
-        setHP(HPInknToner.concat(HPInk, HPToner));
-        setBrother(BrotherInknToner.concat(BrotherInk, BrotherToner));
-        setCanon(CanonInknToner.concat(CanonInk, CanonToner));
-        setOD(ODInknToner.concat(ODInk, ODToner));
-        setEpson(Epson.concat(EpsonInk));
-
         const data = {
           ink: {
-            "hp": HPInknToner.concat(HPInk, HPToner),
-            "brother": BrotherInknToner.concat(BrotherInk, BrotherToner),
-            "canon": CanonInknToner.concat(CanonInk, CanonToner),
-            "od": ODInknToner.concat(ODInk, ODToner),
+            "hp": [].concat(HPInk, HPToner),
+            "brother": [].concat(BrotherInk, BrotherToner),
+            "canon": [].concat(CanonInk, CanonToner),
+            "od": [].concat(ODInk, ODToner),
             "epson": EpsonInk
           }
         }
@@ -138,9 +124,6 @@ function App() {
 
   return (
       <div className='min-vh-100 bg-dark'>
-        <div className='container col-6 col-sm-3 col-md-3 col-lg-2'>
-          <img src="/TaveraLogo.png" className='col-12' alt='logo'/>
-        </div>
         <Router>
             <TavNarBar />
             <Routes>

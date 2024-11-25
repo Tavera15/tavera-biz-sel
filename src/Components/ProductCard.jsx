@@ -15,9 +15,9 @@ function ProductCard({item, sku, name, price, discount, btnText, btnAction})
                     />
                 <Card.Body className="bg-info p-0 pt-1 pb-1">
                     <Card.Title style={{"color": "#000"}}><strong>{name}</strong></Card.Title>
-                    <Card.Subtitle style={{"color": "#000"}}>Sku: {sku}</Card.Subtitle>
+                    <Card.Subtitle style={{"color": "#000"}}>SKU: {sku}</Card.Subtitle>
                     <hr />
-                    <h5 style={{"color": "#CC0000"}} className="p-2 m-0">Regular Price: ${price}</h5>
+                    <h5 style={{"color": "#CC0000"}} className="p-2 m-0">Regular Price: ${price.toFixed(2)}</h5>
                     <h5 style={{"backgroundColor": "white", "color": "#41b5ce"}} className="p-2">Business Select Price: <strong>${(price - ((price * discount) / 100)).toFixed(2)}</strong></h5>
                     <h5 style={{"color": "#AAFF00"}}><strong>Savings ${((price * discount) / 100).toFixed(2)}</strong></h5>
                     <hr />
