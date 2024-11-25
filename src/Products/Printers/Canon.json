@@ -1,0 +1,32 @@
+[
+    {
+        "name": "CANON PIXMA TR150 COLOR PRINTER",
+        "sku": "6678762",
+        "price": 249.99,
+        "discount": 0
+    },
+    {
+        "name": "CANON SELPHY CP1300 THERMAL PRINTER",
+        "sku": "886832",
+        "price": 129.99,
+        "discount": 0
+    },
+    {
+        "name": "CANON PIXMA TR4720 WIRELESS AIO PRINTER",
+        "sku": "6132936",
+        "price": 99.99,
+        "discount": 0
+    },
+    {
+        "name": "CANON PIXMA TS7720 COLOR PRINTER",
+        "sku": "9051222",
+        "price": 149.99,
+        "discount": 0
+    },
+    {
+        "name": "CANON MF753CDW COLOR WIRELESS AIO PRINTER",
+        "sku": "6778545",
+        "price": 649.99,
+        "discount": 0
+    }
+]

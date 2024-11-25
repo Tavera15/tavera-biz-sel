@@ -7,26 +7,33 @@ import ProductsPage from './Pages/ProductsPage';
 import TavNarBar from './Components/TavNavBar';
 import CartPage from './Pages/CartPage';
 
-import HPInk from "./Products/HPInk.json";
-import HPToner from "./Products/HPToner.json";
+import HPInk from "./Products/Ink/HPInk.json";
+import HPToner from "./Products/Ink/HPToner.json";
+import BrotherInk from "./Products/Ink/BrotherInk.json";
+import BrotherToner from "./Products/Ink/BrotherToner.json";
+import CanonInk from "./Products/Ink/CanonInk.json";
+import CanonToner from "./Products/Ink/CanonToner.json";
+import EpsonInk from "./Products/Ink/EpsonInk.json";
+import ODInk from "./Products/Ink/ODInk.json";
+import ODToner from "./Products/Ink/ODToner.json";
 
-import BrotherInk from "./Products/BrotherInk.json";
-import BrotherToner from "./Products/BrotherToner.json";
+import HPPrinters from "./Products/Printers/HPPrinters.json"
+import BrotherPrinters from "./Products/Printers/BrotherPrinters.json";
+import EpsonPrinters from "./Products/Printers/EpsonPrinters.json";
+import CanonPrinters from "./Products/Printers/Canon.json";
 
-import CanonInk from "./Products/CanonInk.json";
-import CanonToner from "./Products/CanonToner.json";
 
-import EpsonInk from "./Products/EpsonInk.json";
-
-import ODInk from "./Products/ODInk.json";
-import ODToner from "./Products/ODToner.json";
 
 function App() {
   
   const inkDiscount = 10;
+  const techDiscount = 10;
+
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [isInkLoaded, setInkLoaded] = useState(false);
+  const [isPrintersLoaded, setPrintersLoaded] = useState(false);
 
   const [cart, setCart] = useState([]);
-  const [isLoaded, setIsLoaded] = useState(false);
   const [products, setProducts] = useState({});
 
   const [HPInknToner, setHP] = useState([]);
@@ -35,6 +42,11 @@ function App() {
   const [ODInknToner, setOD] = useState([]);
   const [Epson, setEpson] = useState([]);
 
+
+  useEffect(() => {
+    setIsLoaded(isInkLoaded && isPrintersLoaded);
+  }, [isInkLoaded, isPrintersLoaded])
+
   useEffect(() => {
     if  (
             HPInk.length > 0 && HPToner.length > 0
@@ -42,7 +54,7 @@ function App() {
             && CanonInk.length > 0 && CanonToner.length > 0
             && ODInk.length > 0 && ODToner.length > 0
             && EpsonInk.length > 0
-            && !isLoaded
+            && !isInkLoaded
         )
     {
         setHP(HPInknToner.concat(HPInk, HPToner));
@@ -70,10 +82,37 @@ function App() {
         };
 
         setProducts(data);
-        setIsLoaded(true);
+        setInkLoaded(true);
     }
+  },[isInkLoaded])
 
-},[isLoaded])
+  useEffect(() => {
+    if(
+        HPPrinters.length > 0 && BrotherPrinters.length > 0
+        && EpsonPrinters.length && CanonPrinters.length > 0
+        && !isPrintersLoaded
+      )
+      {
+        const data = {
+            "hp": HPPrinters,
+            "brother": BrotherPrinters,
+            "epson": EpsonPrinters,
+            "canon": CanonPrinters
+        }
+
+        for(let k in data)
+        {
+            for(let val in data[k])
+            {
+                data[k][val].discount = techDiscount;
+            }
+        };
+
+        setProducts(prev => ({...prev, "printers": data}));
+        setPrintersLoaded(true);
+      }
+  },[isPrintersLoaded])
+
 
   function addToCart(e, item)
   {

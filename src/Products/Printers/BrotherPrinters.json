@@ -1,0 +1,128 @@
+[
+    {
+        "name": "BROTHER MFC-J1010DW ALL-IN-ONE PRINTER",
+        "sku": "5248339",
+        "price": 99.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFC-J5855DW COLOR AIO PRINTER",
+        "sku": "6279154",
+        "price": 299.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER FC-J1170DW WIRELESS AIO PRINTER",
+        "sku": "8944121",
+        "price": 159.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFC-J6555DW COLOR AIO PRINTER",
+        "sku": "5750595",
+        "price": 329.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFC-J4335DW ALL-IN-ONE COLOR PRINTER",
+        "sku": "9324630",
+        "price": 179.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFC-J4535DW ALL-IN-ONE COLOR PRINTER",
+        "sku": "7152677",
+        "price": 249.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER DCP-L2640DW MONOCHROME PRINTER",
+        "sku": "6081891",
+        "price": 199.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER INTELLIFAX-2840 LASER FAX",
+        "sku": "846583",
+        "price": 229.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER HL-L2405W MONOCHROME PRINTER",
+        "sku": "5948187",
+        "price": 119.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFC-L2820DW MONOCHROME PRINTER",
+        "sku": "5189620",
+        "price": 249.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFC-L2820DW XL MONOCHROME AIO PRINTER",
+        "sku": "4564920",
+        "price": 299.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER HL-L2460DW MONOCHROME PRINTER",
+        "sku": "4332742",
+        "price": 159.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER HL-L6210DW LASER PRINTER",
+        "sku": "4870161",
+        "price": 299.99,
+        "discount": 0
+    },
+    {
+        "name": "MFCL2900DW LASER",
+        "sku": "3595136",
+        "price": 299.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFC-L5915DW MONOCHROME AIO PRINTER",
+        "sku": "3868279",
+        "price": 529.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER HL-L3295CDW COLOR PRINTER",
+        "sku": "5230031",
+        "price": 369.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER HL-L3280CDW LASER PRINTER",
+        "sku": "2679907",
+        "price": 299.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER HL-L3300CDW LASER PRINTER",
+        "sku": "3153698",
+        "price": 369.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFC-L3720CDW COLOR AIO PRINTER",
+        "sku": "3799346",
+        "price": 399.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFCL8905CDW ALL-IN-ONE PRINTER",
+        "sku": "8330987",
+        "price": 699.99,
+        "discount": 0
+    },
+    {
+        "name": "BROTHER MFC-L3780CDW LASER PRINTER",
+        "sku": "5927825",
+        "price": 499.99,
+        "discount": 0
+    }
+]

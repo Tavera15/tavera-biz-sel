@@ -11,13 +11,21 @@ function TavNarBar()
                 <Navbar.Brand className="navbar-brand" as={Link} to="/">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                <Nav as={Navbar.Brand} className="navbar-brand me-auto">
+                <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
                     <NavDropdown title="Ink & Toner" id="basic-nav-dropdown">
                     <NavDropdown.Item as={Link} to="/products/ink/hp">HP</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/ink/brother">Brother</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/ink/canon">Canon</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/ink/epson">Epson</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/ink/od">OD Brand</NavDropdown.Item>
+                    </NavDropdown>
+                </Nav>
+                <Nav as={Navbar.Brand} className="navbar-brand me-auto">
+                    <NavDropdown title="Printers" id="basic-nav-dropdown">
+                    <NavDropdown.Item as={Link} to="/products/printers/hp">HP</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/printers/brother">Brother</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/printers/canon">Canon</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/printers/epson">Epson</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav>
