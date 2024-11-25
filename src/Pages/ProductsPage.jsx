@@ -26,7 +26,7 @@ function ProductsPage({products, isLoaded, addToCart})
     }, [category, brand, isLoaded]);
 
     useEffect(() => {
-        if(isLoaded && items.length > 0)
+        if(isLoaded && items && items.length > 0)
         {
             setFilterItems(filter.trim() === "" ? items : items.filter((i) => i.name.toLowerCase().includes(filter.toLowerCase()) || i.sku.includes(filter)));
         }
@@ -40,7 +40,7 @@ function ProductsPage({products, isLoaded, addToCart})
 
             <div className=" col-12 p-4 d-flex col flex-wrap justify-content-start align-items-stretch">
             {
-                filterItems.length > 0
+                filterItems !== undefined
                 ?   filterItems.map((p, i) => {
                         return (
                             <ProductCard
