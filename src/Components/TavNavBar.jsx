@@ -20,7 +20,7 @@ function TavNarBar()
                     <NavDropdown.Item as={Link} to="/products/ink/od">OD Brand</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav as={Navbar.Brand} className="navbar-brand me-auto">
+                <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Printers" id="basic-nav-dropdown">
                     <NavDropdown.Item as={Link} to="/products/printers/hp">HP</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/printers/brother">Brother</NavDropdown.Item>
@@ -28,10 +28,18 @@ function TavNarBar()
                     <NavDropdown.Item as={Link} to="/products/printers/epson">Epson</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav>
-                    <Navbar.Brand className="navbar-brand" as={Link} to="/cart">Cart</Navbar.Brand>
+                <Nav as={Navbar.Brand} className="navbar-brand me-auto">
+                    <NavDropdown className="navbar-brand" title="Furniture" id="basic-nav-dropdown">
+                    <NavDropdown.Item as={Link} to="/products/furniture/chairs">Chairs</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/furniture/desks">Desks</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/furniture/casesanddrawers">Bookcases & Drawers</NavDropdown.Item>
+                    </NavDropdown>
                 </Nav>
+
+                <hr />
+                <Navbar.Brand className="navbar-brand" as={Link} to="/cart">Cart</Navbar.Brand>
                 </Navbar.Collapse>
+
             </Container>
         </Navbar>
     );

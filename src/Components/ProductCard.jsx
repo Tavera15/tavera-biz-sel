@@ -22,7 +22,7 @@ function ProductCard({item, sku, name, price, discount, btnText, btnAction})
                             <div className="p-0 align-self-end d-flex row border-top">
                                 <h5 style={{"color": "#CC0000"}} className="p-2 m-0">Regular Price: ${price.toFixed(2)}</h5>
                                 <h5 style={{"backgroundColor": "white", "color": "#41b5ce"}} className="p-2">Business Select Price: <strong>${(price - ((price * discount) / 100)).toFixed(2)}</strong></h5>
-                                <h5 style={{"color": "#AAFF00"}}><strong>Savings ${((price * discount) / 100).toFixed(2)}</strong></h5>
+                                <h5 style={{"color": "#AAFF00"}}><strong>Savings: ${((price * discount) / 100).toFixed(2)}</strong></h5>
                             <Button className="btn-md align-self-end" variant="primary" onClick={(e) => btnAction(e, item)}>{btnText}</Button>
                             </div>
                         </div>

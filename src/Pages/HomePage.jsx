@@ -18,31 +18,41 @@ function HomePage()
                 <h3>Compare Regular Price Items vs Business Select Pricing</h3>
             </div>
 
-            <hr />
-
             <div>
                 <h1>Ink & Toner</h1>
-            </div>
 
-            <div className="container p-4 mb-4 d-flex flex-wrap justify-content-evenly">
-                <div className="col-6 col-md-2 p-1"><Link to="/products/ink/hp" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://static.vecteezy.com/system/resources/previews/019/909/664/non_2x/hp-transparent-hp-free-free-png.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="HP"/></Link></div>
-                <div className="col-6 col-md-2 p-1"><Link to="/products/ink/brother" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://static.cdnlogo.com/logos/b/91/brother.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Brother"/></Link></div>
-                <div className="col-6 col-md-2 p-1"><Link to="/products/ink/canon" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://static.vecteezy.com/system/resources/previews/019/956/120/non_2x/canon-transparent-canon-free-free-png.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Canon"/></Link></div>
-                <div className="col-6 col-md-2 p-1"><Link to="/products/ink/epson" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://cdn.freebiesupply.com/logos/large/2x/epson-2-logo-png-transparent.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Epson"/></Link></div>
-                <div className="col-6 col-md-2 p-1"><Link to="/products/ink/od" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Office-depot-logo.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="OD"/></Link></div>
+                <div className="container p-4 mb-4 d-flex flex-wrap justify-content-evenly">
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/ink/hp" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://static.vecteezy.com/system/resources/previews/019/909/664/non_2x/hp-transparent-hp-free-free-png.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="HP"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/ink/brother" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://static.cdnlogo.com/logos/b/91/brother.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Brother"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/ink/canon" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://static.vecteezy.com/system/resources/previews/019/956/120/non_2x/canon-transparent-canon-free-free-png.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Canon"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/ink/epson" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://cdn.freebiesupply.com/logos/large/2x/epson-2-logo-png-transparent.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Epson"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/ink/od" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Office-depot-logo.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="OD"/></Link></div>
+                </div>
             </div>
 
             <hr />
 
             <div>
                 <h1>Printers</h1>
+
+                <div className="container p-4 mb-4 d-flex flex-wrap justify-content-evenly">
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/printers/hp" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://static.vecteezy.com/system/resources/previews/019/909/664/non_2x/hp-transparent-hp-free-free-png.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="HP"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/printers/brother" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://static.cdnlogo.com/logos/b/91/brother.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Brother"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/printers/canon" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://static.vecteezy.com/system/resources/previews/019/956/120/non_2x/canon-transparent-canon-free-free-png.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Canon"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/printers/epson" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://cdn.freebiesupply.com/logos/large/2x/epson-2-logo-png-transparent.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Epson"/></Link></div>
+                </div>
             </div>
 
-            <div className="container p-4 mb-4 d-flex flex-wrap justify-content-evenly">
-                <div className="col-6 col-md-2 p-1"><Link to="/products/printers/hp" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://static.vecteezy.com/system/resources/previews/019/909/664/non_2x/hp-transparent-hp-free-free-png.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="HP"/></Link></div>
-                <div className="col-6 col-md-2 p-1"><Link to="/products/printers/brother" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://static.cdnlogo.com/logos/b/91/brother.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Brother"/></Link></div>
-                <div className="col-6 col-md-2 p-1"><Link to="/products/printers/canon" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://static.vecteezy.com/system/resources/previews/019/956/120/non_2x/canon-transparent-canon-free-free-png.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Canon"/></Link></div>
-                <div className="col-6 col-md-2 p-1"><Link to="/products/printers/epson" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12" src="https://cdn.freebiesupply.com/logos/large/2x/epson-2-logo-png-transparent.png" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Epson"/></Link></div>
+            <hr />
+
+            <div>
+                <h1>Furniture</h1>
+                
+                <div className="container p-4 mb-4 d-flex flex-wrap justify-content-evenly">
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/furniture/chairs" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/8638586/8638586_o01_111022/8638586" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Chairs"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/furniture/desks" className="col-12 bg-white rounded-circle d-flex align-items-center "><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/7407968/7407968_o01_030723/7407968" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Desks"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/furniture/casesanddrawers" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/229860/229860_o01_061120/229860" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Cabinets"/></Link></div>
+                </div>
             </div>
 
             <hr />

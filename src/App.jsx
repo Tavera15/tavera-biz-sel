@@ -22,22 +22,27 @@ import BrotherPrinters from "./Products/Printers/BrotherPrinters.json";
 import EpsonPrinters from "./Products/Printers/EpsonPrinters.json";
 import CanonPrinters from "./Products/Printers/Canon.json";
 
+import Chairs from "./Products/Furniture/Chairs.json";
+import Desks from "./Products/Furniture/Desks.json";
+import CasesnDrawers from "./Products/Furniture/CasesAndDrawers.json";
 
 function App() {
   
   const inkDiscount = 10;
   const techDiscount = 5;
+  const furnitureDiscount = 10;
 
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInkLoaded, setInkLoaded] = useState(false);
   const [isPrintersLoaded, setPrintersLoaded] = useState(false);
+  const [isFurnitureLoaded, setFurnitureLoaded] = useState(false);
 
   const [cart, setCart] = useState([]);
   const [products, setProducts] = useState({});
 
   useEffect(() => {
-    setIsLoaded(isInkLoaded && isPrintersLoaded);
-  }, [isInkLoaded, isPrintersLoaded])
+    setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded);
+  }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded])
 
   useEffect(() => {
     if  (
@@ -65,7 +70,7 @@ function App() {
             {
                 data.ink[k][val].discount = inkDiscount;
             }
-        };
+        }
 
         setProducts(data);
         setInkLoaded(true);
@@ -92,12 +97,34 @@ function App() {
             {
                 data[k][val].discount = techDiscount;
             }
-        };
+        }
 
         setProducts(prev => ({...prev, "printers": data}));
         setPrintersLoaded(true);
       }
   },[isPrintersLoaded])
+
+  useEffect(() => {
+    if(Chairs.length > 0 && Desks.length > 0 && !isFurnitureLoaded)
+    {
+        const data = {
+          "chairs": Chairs,
+          "desks": Desks,
+          "casesanddrawers": CasesnDrawers
+        }
+
+        for(let k in data)
+        {
+            for(let val in data[k])
+            {
+                data[k][val].discount = furnitureDiscount;
+            }
+        }
+
+          setProducts(prev => ({...prev, "furniture": data}));
+          setFurnitureLoaded(true);
+    }
+  }, [isFurnitureLoaded])
 
 
   function addToCart(e, item)
