@@ -18,7 +18,10 @@ function ProductsPage({products, isLoaded, addToCart})
         if(isLoaded)
         {
             window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
-            const res = products[category.toLowerCase()][brand.toLowerCase()];
+            const res = category in products && brand in products[category]
+                ? products[category.toLowerCase()][brand.toLowerCase()]
+                : []
+
             setItems(res);
             setFilterItems(res);
             setFilter("");
@@ -26,10 +29,18 @@ function ProductsPage({products, isLoaded, addToCart})
     }, [category, brand, isLoaded]);
 
     useEffect(() => {
-        if(isLoaded && items && items.length > 0)
+        try
         {
-            setFilterItems(filter.trim() === "" ? items : items.filter((i) => i.name.toLowerCase().includes(filter.toLowerCase()) || i.sku.includes(filter)));
+            if(isLoaded && items && items.length > 0)
+            {
+                setFilterItems(filter.trim() === "" ? items : items.filter((i) => i.name.toLowerCase().includes(filter.toLowerCase()) || i.sku.includes(filter)));
+            }
         }
+        catch(err)
+        {
+            setFilterItems([]);
+        }
+
     }, [isLoaded, filter])
 
     return(
@@ -40,7 +51,7 @@ function ProductsPage({products, isLoaded, addToCart})
 
             <div className=" col-12 p-4 d-flex col flex-wrap justify-content-start align-items-stretch">
             {
-                filterItems !== undefined
+                filterItems.length > 0
                 ?   filterItems.map((p, i) => {
                         return (
                             <ProductCard

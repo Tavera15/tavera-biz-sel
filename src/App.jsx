@@ -157,6 +157,7 @@ function App() {
               <Route exact path='/' element={<HomePage addToCart={(e, item) => addToCart(e, item)} />} />
               <Route exact path='/cart' element={<CartPage cart={cart} removeFromCart={(e, item) => removeFromCart(e, item)} />} />
               <Route path='/Products/:category/:brand' element={<ProductsPage products={products} isLoaded={isLoaded} addToCart={(e, item) => addToCart(e, item)} />} />
+              <Route path="*" element={<ProductsPage products={products} isLoaded={isLoaded} addToCart={(e, item) => addToCart(e, item)} />} />
             </Routes>
         </Router>
       </div>
