@@ -59,6 +59,11 @@ function HomePage()
 
             <div className="p-4 pt-0">
                 <h1>CPD</h1>
+                <div className="container p-4 mb-4 d-flex flex-wrap justify-content-evenly">
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/cpd/lettercopies" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/870284/870284_o01_082622/870284" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Chairs"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/cpd/posters" className="col-12 bg-white rounded-circle d-flex align-items-center "><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/818654/818654_o01_110623/818654" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Desks"/></Link></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/cpd/carbonlessforms" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/9692093/9692093_o01_070121a/9692093" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Cabinets"/></Link></div>
+                </div>
                 <img className="col-12 col-md-4" src={cpdPrices} alt="cpd"/>
             </div>
         </div>

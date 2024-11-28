@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage';
 import ProductsPage from './Pages/ProductsPage';
 import TavNarBar from './Components/TavNavBar';
 import CartPage from './Pages/CartPage';
+import CPDPage from './Pages/CPDPage';
 
 import HPInk from "./Products/Ink/HPInk.json";
 import HPToner from "./Products/Ink/HPToner.json";
@@ -27,6 +28,7 @@ import Desks from "./Products/Furniture/Desks.json";
 import CasesnDrawers from "./Products/Furniture/CasesAndDrawers.json";
 
 import CPD from "./Products/CPD/CPD.json";
+import FullServ from "./Products/CPD/FullService.json";
 
 function App() {
   
@@ -40,13 +42,15 @@ function App() {
   const [isPrintersLoaded, setPrintersLoaded] = useState(false);
   const [isFurnitureLoaded, setFurnitureLoaded] = useState(false);
   const [isCPDLoaded, setIsCPDLoaded] = useState(false);
+  const [isFSLoaded, setIsFSLoaded] = useState(false);
 
   const [cart, setCart] = useState([]);
   const [products, setProducts] = useState({});
 
   useEffect(() => {
-    setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded && isCPDLoaded);
-  }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded, isCPDLoaded])
+    setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded && isCPDLoaded && isFSLoaded);
+    //console.log(products)
+  }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded, isCPDLoaded, isFSLoaded])
 
   useEffect(() => {
     if  (
@@ -149,6 +153,30 @@ function App() {
           setIsCPDLoaded(true);
       }
   }, [isCPDLoaded])
+
+    useEffect(() => {
+      if(FullServ.length > 0 && !isFSLoaded)
+      {
+          const res = {};
+
+          for(let f in FullServ)
+          {
+
+              for(let i in FullServ[f])
+              {
+                for(let element in FullServ[f][i])
+                {
+                  FullServ[f][i][element].discount = CPDDiscount
+                }
+                
+                res[i] = FullServ[f][i];
+              }
+          }
+
+          setProducts(prev => ({...prev, "cpd": res}));
+          setIsFSLoaded(true);
+      }
+    }, [isFSLoaded])
 
 
   function addToCart(e, item)

@@ -28,11 +28,18 @@ function TavNarBar()
                     <NavDropdown.Item as={Link} to="/products/printers/epson">Epson</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav as={Navbar.Brand} className="navbar-brand me-auto">
+                <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Furniture" id="basic-nav-dropdown">
                     <NavDropdown.Item as={Link} to="/products/furniture/chairs">Chairs</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/furniture/desks">Desks</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/furniture/casesanddrawers">Bookcases & Drawers</NavDropdown.Item>
+                    </NavDropdown>
+                </Nav>
+                <Nav as={Navbar.Brand} className="navbar-brand me-auto">
+                    <NavDropdown className="navbar-brand" title="Copy & Print" id="basic-nav-dropdown">
+                    <NavDropdown.Item as={Link} to="/products/cpd/lettercopies">Letter Copies</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/cpd/posters">Posters</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/cpd/carbonlessforms">Carbonless Forms</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
 

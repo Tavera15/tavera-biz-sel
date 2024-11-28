@@ -1,0 +1,364 @@
+[
+    {
+        "lettercopies": [
+            {
+                "sku": "870284",
+                "name": "F/S Letter 24lb - Color",
+                "price": 0.64,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 28lb - Color",
+                "price": 0.74,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 65lb Cardstock - Color",
+                "price": 0.8,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 110lb Cardstock - Color",
+                "price": 0.89,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 12pt Matte - Color",
+                "price": 1.01,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 8pt Gloss Cardstock Cover - Color",
+                "price": 0.99,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 10pt Gloss Cardstock Cover - Color",
+                "price": 1.1099999999999999,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 12pt Gloss Cardstock Cover - Color",
+                "price": 1.37,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 80lb Gloss Cover Premium - Color",
+                "price": 1.1600000000000001,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 100lb Gloss Cover Premium - Color",
+                "price": 1.4100000000000001,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 5Mil Synthetic Paper - Color",
+                "price": 3.0900000000000003,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter Resume 25% Cotton - Color",
+                "price": 0.87,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter Labels - Color",
+                "price": 2.63,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 24lb - B/W",
+                "price": 0.18,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 28lb - B/W",
+                "price": 0.28,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 65lb Cardstock - B/W",
+                "price": 0.33999999999999997,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 110lb Cardstock - B/W",
+                "price": 0.43,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 12pt Matte - B/W",
+                "price": 0.55,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 8pt Gloss Cardstock Cover - B/W",
+                "price": 0.53,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 10pt Gloss Cardstock Cover - B/W",
+                "price": 0.6499999999999999,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 12pt Gloss Cardstock Cover - B/W",
+                "price": 0.9099999999999999,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 80lb Gloss Cover Premium - B/W",
+                "price": 0.7,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 100lb Gloss Cover Premium - B/W",
+                "price": 0.95,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter 5Mil Synthetic Paper - B/W",
+                "price": 2.6300000000000003,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter Resume 25% Cotton - B/W",
+                "price": 0.41000000000000003,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "870284",
+                "name": "F/S Letter Labels - B/W",
+                "price": 2.17,
+                "qty": 1,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "posters": [
+            {
+                "sku": "818654",
+                "name": "F/S 24lb Bond Paper - 16x20",
+                "price": 13.99,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Premium Matte Paper - 16x20",
+                "price": 16.990000000000002,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Semi-Gloss Paper - 16x20",
+                "price": 21.990000000000002,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S High-Gloss Paper - 16x20",
+                "price": 21.990000000000002,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Satin Photo Paper - 16x20",
+                "price": 30.990000000000002,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Canvas Paper - 16x20",
+                "price": 19.990000000000002,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S 24lb Bond Paper - 18x24",
+                "price": 15.99,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Premium Matte Paper - 18x24",
+                "price": 19.990000000000002,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Semi-Gloss Paper - 18x24",
+                "price": 23.990000000000002,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S High-Gloss Paper - 18x24",
+                "price": 23.990000000000002,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Satin Photo Paper - 18x24",
+                "price": 32.99,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Canvas Paper - 18x24",
+                "price": 26.990000000000002,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S 24lb Bond Paper - 24x36",
+                "price": 30.99,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Premium Matte Paper - 24x36",
+                "price": 35.989999999999995,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Semi-Gloss Paper - 24x36",
+                "price": 38.989999999999995,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S High-Gloss Paper - 24x36",
+                "price": 38.989999999999995,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Satin Photo Paper - 24x36",
+                "price": 45.989999999999995,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "818654",
+                "name": "F/S Canvas Paper - 24x36",
+                "price": 59.989999999999995,
+                "qty": 1,
+                "discount": 0
+            }
+        ]
+    },
+    {
+        "carbonlessforms": [
+            {
+                "sku": "9692093",
+                "name": "F/S 2-Part Carbonless Forms - B/W",
+                "price": 0.32,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "9692093",
+                "name": "F/S 2-Part Carbonless Forms - Color",
+                "price": 1,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "9692093",
+                "name": "F/S 3-Part Carbonless Forms - B/W",
+                "price": 0.48,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "9692093",
+                "name": "F/S 3-Part Carbonless Forms - Color",
+                "price": 1.4,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "9692093",
+                "name": "F/S 4-Part Carbonless Forms - B/W",
+                "price": 0.62,
+                "qty": 1,
+                "discount": 0
+            },
+            {
+                "sku": "9692093",
+                "name": "F/S 4-Part Carbonless Forms - Color",
+                "price": 1.7999999999999998,
+                "qty": 1,
+                "discount": 0
+            }
+        ]
+    }
+]

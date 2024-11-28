@@ -48,7 +48,6 @@ function ProductsPage({products, isLoaded, addToCart})
             <div className="container col-12 col-md-6 mt-4">
                 <input onChange={(e) => setFilter(e.target.value)} value={filter} className="form-control" placeholder="Search (Item Name or Sku)" />
             </div>
-
             <div className=" col-12 p-4 d-flex col flex-wrap justify-content-start align-items-stretch">
             {
                 filterItems.length > 0
