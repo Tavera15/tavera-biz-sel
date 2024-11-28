@@ -3,198 +3,231 @@
         "name": "CANON 045 BLACK TONER CARTRIDGE",
         "sku": "560120",
         "price": 78.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 045 BLACK TONER HIGH-YIELD CARTRIDGE",
         "sku": "833210",
         "price": 110.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 045 CYAN TONER CARTRIDGE",
         "sku": "600393",
         "price": 90.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 045 MAGENTA TONER CARTRIDGE",
         "sku": "489938",
         "price": 90.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 045 YELLOW TONER CARTRIDGE",
         "sku": "633383",
         "price": 90.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON CRG 501 BLACK TONER 2168C001",
         "sku": "7054803",
         "price": 92.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON GENUINE 054 TONER BLACK CRG 054 K",
         "sku": "8015997",
         "price": 89.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON CRG 055 TONER BLACK",
         "sku": "5482119",
         "price": 96.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON CRG 055 TONER CYAN",
         "sku": "5620467",
         "price": 123.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON CRG 055 TONER MAGENTA",
         "sku": "7286400",
         "price": 123.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON CRG 055 TONER YELLOW",
         "sku": "5951807",
         "price": 123.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 057 INK BLACK",
         "sku": "7342616",
         "price": 142.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 057 GENUINE BLACK HIGH YIELD TONER 3010C001",
         "sku": "6522048",
         "price": 246.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 104 BLACK TONER",
         "sku": "984488",
         "price": 104.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 119 BLACK TONER",
         "sku": "470812",
         "price": 120.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 120 BLACK TONER",
         "sku": "775690",
         "price": 202.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 046 BLACK TONER CARTRIDGE",
         "sku": "325238",
         "price": 113.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 046 BLACK TONER HIGH-YIELD CARTRIDGE",
         "sku": "595058",
         "price": 141.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 046 CYAN TONER CARTRIDGE",
         "sku": "976797",
         "price": 134.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 046 MAGENTA TONER CARTRIDGE",
         "sku": "128367",
         "price": 134.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 046 YELLOW TONER CARTRIDGE",
         "sku": "876820",
         "price": 134.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON GENUINE 054 TONER CYAN CRG 054 C",
         "sku": "5450222",
         "price": 84.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON GENUINE 054 TONER MAGENTA CRG 054 M",
         "sku": "8433446",
         "price": 84.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON GENUINE 054 TONER YELLOW CRG 054 Y",
         "sku": "9309092",
         "price": 84.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 069 BLACK TONER CARTRIDGE",
         "sku": "9351087",
         "price": 100.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 069 CYAN TNER CARTRIDGE",
         "sku": "9810681",
         "price": 130.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 069 MAGENTA TONER CARTRIDGE",
         "sku": "9229683",
         "price": 130.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 069 YELLOW TONER CARTRIDGE",
         "sku": "6453851",
         "price": 130.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 070 BLACK TONER CARTRIDGE",
         "sku": "9798294",
         "price": 122.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 070 HIGH-YIELD TONER CARTRIDGE",
         "sku": "5611232",
         "price": 256.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON CRG-125 BLACK TONER",
         "sku": "505507",
         "price": 86.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON 128 BLACK TONER",
         "sku": "695913",
         "price": 112.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "CANON CRG 137 BLACK TONER CARTRIDGE",
         "sku": "487021",
         "price": 100.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     }
 ]

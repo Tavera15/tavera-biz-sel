@@ -1,0 +1,50 @@
+[
+    {
+        "name": "F/S - 24lb Letter B/W Copies",
+        "sku": "870284",
+        "price": 0.24,
+        "discount": 0
+    },
+    {
+        "name": "SS B&W Letter",
+        "sku": "163061",
+        "price": 0.20,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "SS Color Letter",
+        "sku": "224111",
+        "price": 0.70,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "SS B&W Legal",
+        "sku": "162911",
+        "price": 0.22,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "SS Color Legal",
+        "sku": "224131",
+        "price": 0.72,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "SS B&W Ledger",
+        "sku": "163391",
+        "price": 0.32,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "SS Color Ledger",
+        "sku": "224151",
+        "price": 1.33,
+        "discount": 0,
+        "qty": 1
+    }
+]

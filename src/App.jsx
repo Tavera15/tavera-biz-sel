@@ -26,23 +26,27 @@ import Chairs from "./Products/Furniture/Chairs.json";
 import Desks from "./Products/Furniture/Desks.json";
 import CasesnDrawers from "./Products/Furniture/CasesAndDrawers.json";
 
+import CPD from "./Products/CPD/CPD.json";
+
 function App() {
   
   const inkDiscount = 10;
   const techDiscount = 5;
   const furnitureDiscount = 10;
+  const CPDDiscount = 10;
 
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInkLoaded, setInkLoaded] = useState(false);
   const [isPrintersLoaded, setPrintersLoaded] = useState(false);
   const [isFurnitureLoaded, setFurnitureLoaded] = useState(false);
+  const [isCPDLoaded, setIsCPDLoaded] = useState(false);
 
   const [cart, setCart] = useState([]);
   const [products, setProducts] = useState({});
 
   useEffect(() => {
-    setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded);
-  }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded])
+    setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded && isCPDLoaded);
+  }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded, isCPDLoaded])
 
   useEffect(() => {
     if  (
@@ -125,6 +129,26 @@ function App() {
           setFurnitureLoaded(true);
     }
   }, [isFurnitureLoaded])
+
+  useEffect(() => {
+    if(CPD.length > 0 && !isCPDLoaded)
+      {
+          const data = {
+            "cpd": CPD,
+          }
+  
+          for(let k in data)
+          {
+              for(let val in data[k])
+              {
+                  data[k][val].discount = CPDDiscount;
+              }
+          }
+  
+          setProducts(prev => ({...prev, "cpd": data}));
+          setIsCPDLoaded(true);
+      }
+  }, [isCPDLoaded])
 
 
   function addToCart(e, item)

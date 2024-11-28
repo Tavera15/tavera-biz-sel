@@ -3,126 +3,147 @@
         "name": "HP ENVY 6155e",
         "sku": "9523934",
         "price": 139.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP DESKJET 4255e WIRELESS ALL-IN-ONE COLOR PRINTER",
         "sku": "9783620",
         "price": 99.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP ENVY 6555e",
         "sku": "7523161",
         "price": 159.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP ENVY INSPIRE 7955E ALL-IN-ONE COLOR PRINTER",
         "sku": "8571850",
         "price": 219.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP OFFICEJET PRO 8135E COLOR AIO PRINTER",
         "sku": "8383523",
         "price": 224.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP OFFICEJET 8015E AIO COLOR INKJET PRINTER",
         "sku": "8122684",
         "price": 159.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP OFFICEJET PRO 9125E COLOR AIO PRINTER",
         "sku": "3984252",
         "price": 289.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP OFFICEJET PRO 9135E COLOR PRINTER",
         "sku": "6914506",
         "price": 399.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP SMART TANK 5101 ALL-IN-ONE PRINTER",
         "sku": "6020340",
         "price": 249.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP SMART TANK 7602 AIO COLOR PRINTER",
         "sku": "9337916",
         "price": 449.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP LASERJET M209DW MONOCHROME PRINTER",
         "sku": "5885810",
         "price": 149,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP LASERJET PRO 4001N MNOCHROME PRINTER",
         "sku": "1586105",
         "price": 309,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP LASERJET M234SDW AIO MONOCHROME PRINTER",
         "sku": "8057229",
         "price": 229.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP MFP 3101FDW ALL-IN-ONE PRINTER",
         "sku": "7185539",
         "price": 309,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP LASERJET ALL-ON-ONE 4101FDW B&W PRINTER",
         "sku": "3767206",
         "price": 539,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP COLOR PRO 3201DW WIRELESS LASERJET PRINTER",
         "sku": "8139797",
         "price": 339,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP PRO MFP 3301FDW WIRELESS LASER PRINTER",
         "sku": "7498292",
         "price": 529,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP OFFICEJET PRO 9730E ALL-IN-1 INKJET PRINTER",
         "sku": "7513970",
         "price": 359.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP LASERJET MFP 4301DW WIRELESS COLOR PRINTER",
         "sku": "6063401",
         "price": 699.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP OFFICEJET 250 MOBILE ALL-IN-ONE COLOR PRINTER",
         "sku": "386558",
         "price": 489.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "HP OFFICEJET PRO 200 COLOR PRINTER",
         "sku": "687590",
         "price": 389.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     }
 ]

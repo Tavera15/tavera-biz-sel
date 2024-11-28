@@ -57,8 +57,8 @@ function HomePage()
 
             <hr />
 
-            <div className="p-4">
-                <h4>CPD Inventory will be added soon...</h4>
+            <div className="p-4 pt-0">
+                <h1>CPD</h1>
                 <img className="col-12 col-md-4" src={cpdPrices} alt="cpd"/>
             </div>
         </div>

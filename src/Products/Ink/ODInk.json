@@ -3,312 +3,364 @@
         "name": "OFFICE DEPOT (HP 60) REMAN COMBO PACK INK",
         "sku": "937302",
         "price": 60.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT HIGH-YIELD OM05850 REMAN BLACK INK",
         "sku": "1220707",
         "price": 42.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT 61 INK (HP 61) BLACK",
         "sku": "222583",
         "price": 27.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT BRAND OD62XLK62C REMAN INK",
         "sku": "7449871",
         "price": 64.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT BRAND OD62XLBK REMAN INK",
         "sku": "5071710",
         "price": 48.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT BRAND OD62XLC REMAN INK",
         "sku": "3111892",
         "price": 42.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT BRAND OD63XLK63C REMAN INK",
         "sku": "6035036",
         "price": 67.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT BRAND OD63XLBK BLACK INK",
         "sku": "3788508",
         "price": 40.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT OD63B REMAN INK HP 63",
         "sku": "8043371",
         "price": 25.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN HIGH CYM INK FOR HP 64XL/64",
         "sku": "4158129",
         "price": 53.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT OD64LB BLACK INK",
         "sku": "9520510",
         "price": 44.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT OD64B REMAN BLACK INK HP 64",
         "sku": "6058910",
         "price": 25.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN CYM INK FOR HP 65XL/65",
         "sku": "9265956",
         "price": 45.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN HIGH CYM INK FOR HP 67XL/67",
         "sku": "4845365",
         "price": 44.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN HIGH BLACK INK FOR HP 67XL",
         "sku": "3196388",
         "price": 28.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT 92/93 INK (HP 92/93) COMBO 2-PACK",
         "sku": "230203",
         "price": 51.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT 94/95 INK (HP 94/95) COMBO 2-PACK",
         "sku": "820059",
         "price": 50.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT 96/97 INK (HP 96/97) COMBO 2-PACK",
         "sku": "820086",
         "price": 96.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT 95/98 INK (HP 95/98) COMBO 2-PACK",
         "sku": "311710",
         "price": 69.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT(HP564XL/564) REMAN COLOR INK 4-PK",
         "sku": "649118",
         "price": 61.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT 564XL (HP 564XL) BLACK",
         "sku": "417607",
         "price": 34.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT (HP 901) REMAN BLACK INK",
         "sku": "698406",
         "price": 39.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OD OD902XLK902CMYV3 BLACK 4-PACK",
         "sku": "6610158",
         "price": 75.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OD OD902XLBNV3 BLACK",
         "sku": "8838049",
         "price": 43.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT (920XL/920) REMAN COLOR INK 4-PK",
         "sku": "649127",
         "price": 65.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN OD932XLK933CMY-C INK",
         "sku": "332549",
         "price": 82.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT BRAND OD934XLK935CMY REMAN INK",
         "sku": "1809071",
         "price": 81.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT (940XL/940) REMAN COLOR INK 4-PK",
         "sku": "649163",
         "price": 106.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN ODHP950XLK951CMY HP 950XL",
         "sku": "902231",
         "price": 107.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT ODHP951CLR REMAN HP 951 3-PK",
         "sku": "289110",
         "price": 72.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT ODHP950XLB REMAN BLACK INK CARTRIDGE",
         "sku": "732032",
         "price": 42.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OD N9K28AN BLACK 4-PACK",
         "sku": "5262321",
         "price": 61.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OD OD952CMYMNV3 TRICOLOR",
         "sku": "9308227",
         "price": 71.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OD OD952XLBNV3 BLACK",
         "sku": "4794572",
         "price": 48.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT PGI-5 INK (CANON PGI-5) BLACK",
         "sku": "450930",
         "price": 21.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN (CANON 0620B002) MULTIPACK INK",
         "sku": "1364419",
         "price": 49.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT PG-40 INK (CANON PG-40) BLACK",
         "sku": "229375",
         "price": 33.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT CL41 INK (CANON CL41) COLOR",
         "sku": "229348",
         "price": 29.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT PGI-220 INK (CANON PGI-220) BLACK",
         "sku": "698649",
         "price": 19.89,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT BLACK INK (CANON PGI-225)",
         "sku": "417526",
         "price": 22.89,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT CLI-226 (CANON CLI-226) MULTIPACK",
         "sku": "417724",
         "price": 41.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN INK OD240XL241XLCP",
         "sku": "8047850",
         "price": 57.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN BLACK INK (CANON PG-240XL)",
         "sku": "970193",
         "price": 30.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN TRI COLOR INK(CANON CL-241XL)",
         "sku": "970211",
         "price": 30.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN HIGH INK OD245XL246XLCP",
         "sku": "8047947",
         "price": 68.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT ODPGI250B REMAN BLACK INK",
         "sku": "332206",
         "price": 21.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT ODCLI25IMP REMAN INK CARTRIDGES",
         "sku": "332229",
         "price": 49.99,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT ODCLI271BCMY REMAN BLACK/COLOR INK",
         "sku": "3420616",
         "price": 46.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN BCMY INK OD280XL281XLMP",
         "sku": "8048078",
         "price": 69.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT REMAN HIGH BLACK INK OD281XLB",
         "sku": "8048004",
         "price": 23.89,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT (100XLA) REMAN BLACK INK",
         "sku": "565522",
         "price": 42.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     },
     {
         "name": "OFFICE DEPOT (100XL/100) REMAN COLOR INK 3-PK",
         "sku": "755269",
         "price": 63.49,
-        "discount": 0
+        "discount": 0,
+        "qty": 1
     }
 ]
