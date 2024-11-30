@@ -27,41 +27,43 @@ import Chairs from "./Products/Furniture/Chairs.json";
 import Desks from "./Products/Furniture/Desks.json";
 import CasesnDrawers from "./Products/Furniture/CasesAndDrawers.json";
 
-import CPD from "./Products/CPD/CPD.json";
+import SelfServ from "./Products/CPD/SelfService.json";
 import FullServ from "./Products/CPD/FullService.json";
 
 function App() {
   
-  const inkDiscount = 10;
-  const techDiscount = 5;
-  const furnitureDiscount = 10;
-  const CPDDiscount = 10;
+  const INK_DISCOUNT = 10;
+  const TECH_DISCOUNT = 5;
+  const FURNITURE_DISCOUNT = 10;
+  const CPD_FS_DISCOUNT = 10;
+  const CPD_SS_DISCOUNT = 20;
 
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInkLoaded, setInkLoaded] = useState(false);
   const [isPrintersLoaded, setPrintersLoaded] = useState(false);
   const [isFurnitureLoaded, setFurnitureLoaded] = useState(false);
-  const [isCPDLoaded, setIsCPDLoaded] = useState(false);
+  const [isSSLoaded, setIsSSLoaded] = useState(false);
   const [isFSLoaded, setIsFSLoaded] = useState(false);
 
   const [cart, setCart] = useState([]);
   const [products, setProducts] = useState({});
 
   useEffect(() => {
-    setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded && isCPDLoaded && isFSLoaded);
-    //console.log(products)
-  }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded, isCPDLoaded, isFSLoaded])
+    setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded && isSSLoaded && isFSLoaded);
+    console.log(products)
+  }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded, isSSLoaded, isFSLoaded])
 
+  // Loading Ink & Toner
   useEffect(() => {
-    if  (
+    if(
             HPInk.length > 0 && HPToner.length > 0
             && BrotherInk.length > 0 && BrotherToner.length > 0
             && CanonInk.length > 0 && CanonToner.length > 0
             && ODInk.length > 0 && ODToner.length > 0
             && EpsonInk.length > 0
             && !isInkLoaded
-        )
-    {
+    )
+    { 
         const data = {
           ink: {
             "hp": [].concat(HPInk, HPToner),
@@ -76,15 +78,16 @@ function App() {
         {
             for(let val in data.ink[k])
             {
-                data.ink[k][val].discount = inkDiscount;
+                data.ink[k][val].discount = INK_DISCOUNT;
             }
         }
 
         setProducts(data);
         setInkLoaded(true);
-    }
+      }
   },[isInkLoaded])
 
+  // Loading Printers
   useEffect(() => {
     if(
         HPPrinters.length > 0 && BrotherPrinters.length > 0
@@ -103,7 +106,7 @@ function App() {
         {
             for(let val in data[k])
             {
-                data[k][val].discount = techDiscount;
+                data[k][val].discount = TECH_DISCOUNT;
             }
         }
 
@@ -112,6 +115,7 @@ function App() {
       }
   },[isPrintersLoaded])
 
+  // Loading Furniture
   useEffect(() => {
     if(Chairs.length > 0 && Desks.length > 0 && !isFurnitureLoaded)
     {
@@ -125,7 +129,7 @@ function App() {
         {
             for(let val in data[k])
             {
-                data[k][val].discount = furnitureDiscount;
+                data[k][val].discount = FURNITURE_DISCOUNT;
             }
         }
 
@@ -134,26 +138,28 @@ function App() {
     }
   }, [isFurnitureLoaded])
 
+  // Loading Self Service
   useEffect(() => {
-    if(CPD.length > 0 && !isCPDLoaded)
+    if(SelfServ.length > 0 && !isSSLoaded)
       {
           const data = {
-            "cpd": CPD,
+            "self-service": SelfServ,
           }
   
           for(let k in data)
           {
               for(let val in data[k])
               {
-                  data[k][val].discount = CPDDiscount;
+                  data[k][val].discount = CPD_SS_DISCOUNT;
               }
           }
   
-          setProducts(prev => ({...prev, "cpd": data}));
-          setIsCPDLoaded(true);
+          setProducts(prev => ({...prev, "self-service": data}));
+          setIsSSLoaded(true);
       }
-  }, [isCPDLoaded])
+  }, [isSSLoaded])
 
+  // Loading Full Service
     useEffect(() => {
       if(FullServ.length > 0 && !isFSLoaded)
       {
@@ -161,12 +167,11 @@ function App() {
 
           for(let f in FullServ)
           {
-
               for(let i in FullServ[f])
               {
                 for(let element in FullServ[f][i])
                 {
-                  FullServ[f][i][element].discount = CPDDiscount
+                  FullServ[f][i][element].discount = CPD_FS_DISCOUNT
                 }
                 
                 res[i] = FullServ[f][i];
