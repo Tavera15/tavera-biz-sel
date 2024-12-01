@@ -56,8 +56,8 @@ function HomePage()
 
             <hr />
 
-            <div className="p-4 pt-0">
-                <h1>CPD</h1>
+            <div>
+                <h1>Copy & Print</h1>
                 <div className="container p-4 mb-4 d-flex flex-wrap justify-content-evenly">
                     <div className="col-6 col-md-2 p-1"><Link to="/products/self-service/self-service" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/870284/870284_o01_082622/870284" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="SS"/></Link><h4>S/S Copies</h4></div>
                     <div className="col-6 col-md-2 p-1"><Link to="/products/cpd/lettercopies" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/870284/870284_o01_082622/870284" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="FS"/></Link><h4>F/S Copies</h4></div>
