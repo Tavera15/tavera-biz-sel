@@ -6,7 +6,6 @@ import HomePage from './Pages/HomePage';
 import ProductsPage from './Pages/ProductsPage';
 import TavNarBar from './Components/TavNavBar';
 import CartPage from './Pages/CartPage';
-import CPDPage from './Pages/CPDPage';
 
 import HPInk from "./Products/Ink/HPInk.json";
 import HPToner from "./Products/Ink/HPToner.json";
@@ -29,6 +28,7 @@ import CasesnDrawers from "./Products/Furniture/CasesAndDrawers.json";
 
 import SelfServ from "./Products/CPD/SelfService.json";
 import FullServ from "./Products/CPD/FullService.json";
+import TavFootBar from './Components/TavFootbar';
 
 function App() {
   
@@ -222,6 +222,7 @@ function App() {
               <Route path='/Products/:category/:brand' element={<ProductsPage products={products} isLoaded={isLoaded} addToCart={(e, item) => addToCart(e, item)} />} />
               <Route path="*" element={<ProductsPage products={products} isLoaded={isLoaded} addToCart={(e, item) => addToCart(e, item)} />} />
             </Routes>
+            <TavFootBar />
         </Router>
       </div>
   )
