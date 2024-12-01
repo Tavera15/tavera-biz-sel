@@ -7,8 +7,15 @@ function ProductCard({item, sku, name, price, defQty, discount, btnText, btnActi
 
     function handleSubmit(e)
     {
-        item.qty = Number.parseInt(qty);
-        btnAction(e, item);
+        const cartItem = {
+            "sku": sku,
+            "name": name,
+            "price": price,
+            "discount": discount,
+            "qty": Number.parseInt(qty)
+        }
+
+        btnAction(e, cartItem);
         setQty(1);
     }
 

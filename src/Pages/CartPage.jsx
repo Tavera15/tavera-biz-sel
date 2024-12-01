@@ -47,7 +47,7 @@ function CartPage({cart, removeFromCart})
                                     name={p.name} 
                                     discount={p.discount}
                                     defQty={p.qty}
-                                    key={p.sku + i}
+                                    key={p.sku + p.qty + i}
                                     btnText="Delete"
                                     enableQty={false}
                                     btnAction={(e) => removeFromCart(e, p)}
