@@ -57,9 +57,11 @@ function ProductsPage({products, isLoaded, addToCart})
                                 item={p}
                                 sku={p.sku} 
                                 price={p.price} 
-                                name={p.name} 
+                                name={p.name}
+                                defQty={p.qty}
                                 discount={p.discount} 
-                                key={i}
+                                key={p.sku + i}
+                                enableQty={true}
                                 btnText="Add to cart"
                                 btnAction={(e, item) => addToCart(e, item)}
                             />

@@ -50,7 +50,7 @@ function App() {
 
   useEffect(() => {
     setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded && isSSLoaded && isFSLoaded);
-    console.log(products)
+    //console.log(products)
   }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded, isSSLoaded, isFSLoaded])
 
   // Loading Ink & Toner
@@ -192,13 +192,19 @@ function App() {
 
   function removeFromCart(e, item)
   {
+      e.preventDefault();
       const res = [];
+      let isRemoved = false;
 
       for(let i in cart)
       {
           const cartItem = cart[i];
 
-          if(cartItem.sku === item.sku) {continue;}
+          if(cartItem.sku === item.sku && cartItem.qty === item.qty && !isRemoved)
+          {
+              isRemoved = true;
+              continue;
+          }
 
           res.push(cartItem);
       }

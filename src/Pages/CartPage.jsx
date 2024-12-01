@@ -16,9 +16,9 @@ function CartPage({cart, removeFromCart})
         {
             const item = cart[i];
 
-            r += item.price;
-            bs += (item.price - ((item.price * item.discount) / 100));
-            sav += ((item.price * item.discount) / 100);
+            r += (item.price * item.qty);
+            bs += ((item.price * item.qty) - (((item.price * item.qty) * item.discount) / 100));
+            sav += (((item.price * item.qty) * item.discount) / 100);
         }
 
         setRegSubtotal(r);
@@ -45,9 +45,11 @@ function CartPage({cart, removeFromCart})
                                     sku={p.sku} 
                                     price={p.price} 
                                     name={p.name} 
-                                    discount={p.discount} 
-                                    key={i}
+                                    discount={p.discount}
+                                    defQty={p.qty}
+                                    key={p.sku + i}
                                     btnText="Delete"
+                                    enableQty={false}
                                     btnAction={(e) => removeFromCart(e, p)}
                                 />
                             )

@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 function HomePage()
 {
-
     return(
         <div className="col-12 justify-content-center align-items-center">
             <div className="mb-4 p-4 col-12" style={{
