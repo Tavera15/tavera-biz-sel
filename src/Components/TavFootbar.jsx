@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/TaveraLogo.png";
+import logo from "../assets/TaveraLogo.png";
 
 function TavFootBar()
 {
