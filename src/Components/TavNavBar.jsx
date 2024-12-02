@@ -6,7 +6,7 @@ import { NavDropdown } from "react-bootstrap";
 function TavNarBar()
 {
     return(
-        <Navbar expand="lg" bg="info" data-bs-theme="light" className="bg-body-tertiary navbar-dark col-12 p-3" sticky="top">
+        <Navbar collapseOnSelect={true} expand="lg" bg="info" data-bs-theme="light" className="bg-body-tertiary navbar-dark col-12 p-3" sticky="top">
             <Container>
                 <Navbar.Brand className="navbar-brand" as={Link} to="/">Home</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
