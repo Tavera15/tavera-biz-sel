@@ -30,6 +30,11 @@ import SelfServ from "./Products/CPD/SelfService.json";
 import FullServ from "./Products/CPD/FullService.json";
 import TavFootBar from './Components/TavFootbar';
 
+import Telephones from "./Products/Tech/Telephones.json";
+import Calculators from "./Products/Tech/Calculators.json";
+
+import ThermalPaper from "./Products/Supplies/ThermalPaper.json";
+
 function App() {
   
   const INK_DISCOUNT = 10;
@@ -37,6 +42,7 @@ function App() {
   const FURNITURE_DISCOUNT = 10;
   const CPD_FS_DISCOUNT = 10;
   const CPD_SS_DISCOUNT = 20;
+  const SUPPLIES_DISCOUNT = 20;
 
   const [isLoaded, setIsLoaded] = useState(false);
   const [isInkLoaded, setInkLoaded] = useState(false);
@@ -44,14 +50,16 @@ function App() {
   const [isFurnitureLoaded, setFurnitureLoaded] = useState(false);
   const [isSSLoaded, setIsSSLoaded] = useState(false);
   const [isFSLoaded, setIsFSLoaded] = useState(false);
+  const [isTechLoaded, setIsTechLoaded] = useState(false);
+  const [isSuppliesLoaded, setIsSuppliesLoaded] = useState(false);
 
   const [cart, setCart] = useState([]);
   const [products, setProducts] = useState({});
 
   useEffect(() => {
-    setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded && isSSLoaded && isFSLoaded);
+    setIsLoaded(isInkLoaded && isPrintersLoaded && isFurnitureLoaded && isSSLoaded && isFSLoaded && isTechLoaded && isSuppliesLoaded);
     //console.log(products)
-  }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded, isSSLoaded, isFSLoaded])
+  }, [isInkLoaded, isPrintersLoaded, isFurnitureLoaded, isSSLoaded, isFSLoaded, isTechLoaded, isSuppliesLoaded])
 
   // Loading Ink & Toner
   useEffect(() => {
@@ -183,6 +191,48 @@ function App() {
       }
     }, [isFSLoaded])
 
+    // Loading Tech
+    useEffect(() => {
+      if(Telephones.length > 0 && !isTechLoaded)
+      {
+          const data = {
+            "telephones": Telephones,
+            "calculators": Calculators
+          }
+  
+          for(let k in data)
+          {
+              for(let val in data[k])
+              {
+                  data[k][val].discount = TECH_DISCOUNT;
+              }
+          }
+  
+            setProducts(prev => ({...prev, "tech": data}));
+            setIsTechLoaded(true);
+      }
+    }, [isTechLoaded])
+    
+    // Loading Supplies
+    useEffect(() => {
+      if(ThermalPaper.length > 0 && !isSuppliesLoaded)
+      {
+          const data = {
+            "thermalpaper": ThermalPaper,
+          }
+  
+          for(let k in data)
+          {
+              for(let val in data[k])
+              {
+                  data[k][val].discount = SUPPLIES_DISCOUNT;
+              }
+          }
+  
+            setProducts(prev => ({...prev, "supplies": data}));
+            setIsSuppliesLoaded(true);
+      }
+    }, [isSuppliesLoaded])
 
   function addToCart(e, item)
   {

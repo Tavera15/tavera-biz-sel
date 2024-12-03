@@ -1,0 +1,100 @@
+[
+    {
+        "name": "OFFICE DEPOT PAPER ROLLS 3\" X 128' 10-PK",
+        "sku": "109023",
+        "price": 44.79,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT PAPER ROLLS 2.75\" X 128' 10-PK",
+        "sku": "108974",
+        "price": 29.19,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT PAPER ROLLS 2.25\" X 130' 12-PK",
+        "sku": "108862",
+        "price": 18.49,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT PAPER ROLLS 2.25\" X 130' 3-PK",
+        "sku": "109303",
+        "price": 13.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT PAPER ROLLS 1.75\" X 128' 10-PK",
+        "sku": "109044",
+        "price": 33.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT PRE-PRINTED PAPER ROLL 8-PACK",
+        "sku": "109345",
+        "price": 43.49,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT 2-PLY PAPER ROLL CANARY/WHITE 10-PK",
+        "sku": "109275",
+        "price": 54.89,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT 2-PLY PAPER ROLL CANARY/WHITE 10-PK",
+        "sku": "109093",
+        "price": 50.39,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT THERMAL PAPER ROLLS WHITE 6-PK",
+        "sku": "108610",
+        "price": 27.59,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT THERMAL PAPER ROLLS WHITE 9-PK",
+        "sku": "109317",
+        "price": 34.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT THERMAL PAPER ROLLS WHITE 6-PK",
+        "sku": "359247",
+        "price": 34.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT THERMAL PAPER ROLLS 10-PACK",
+        "sku": "554085",
+        "price": 63.59,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT THERMAL PAPER ROLLS WHITE 10-PK",
+        "sku": "109282",
+        "price": 79.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "OFFICE DEPOT THERMAL PAPER ROLLS WHITE 8-PK",
+        "sku": "615225",
+        "price": 76.99,
+        "discount": 0,
+        "qty": 1
+    }
+]
