@@ -53,6 +53,32 @@ function HomePage()
                     <div className="col-6 col-md-2 p-1"><Link to="/products/furniture/casesanddrawers" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/229860/229860_o01_061120/229860" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Cabinets"/></Link></div>
                 </div>
             </div>
+            
+            <hr />
+
+            <div>
+                <h1>Supplies</h1>
+                
+                <div className="container p-4 mb-4 d-flex flex-wrap justify-content-evenly">
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/supplies/labels" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/1216504/1216504_o01_24/1216504" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="labels"/></Link><h4>Labels</h4></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/supplies/envelopes" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/190294/190294" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="envelopes"/></Link><h4>Envelopes</h4></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/supplies/filefolders" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/675612/675612" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="filefolders"/></Link><h4>File Folders</h4></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/supplies/binders" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/212041/212041" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="binders"/></Link><h4>Binders</h4></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/supplies/thermalpaper" className="col-12 bg-white rounded-circle d-flex align-items-center "><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/615225/615225" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="thermalpaper"/></Link><h4>Thermal Paper</h4></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/supplies/forms" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/308403/308403" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="forms"/></Link><h4>Business Forms</h4></div>
+                </div>
+            </div>
+
+            <hr />
+            
+            <div>
+                <h1>Tech</h1>
+                
+                <div className="container p-4 mb-4 d-flex flex-wrap justify-content-evenly">
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/tech/calculators" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/7276012/7276012" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="calculators"/></Link><h4>Calculators</h4></div>
+                    <div className="col-6 col-md-2 p-1"><Link to="/products/supplies/envelopes" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/638562/638562" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Telephones"/></Link><h4>Telephones</h4></div>
+                </div>
+            </div>
 
             <hr />
 
@@ -65,7 +91,7 @@ function HomePage()
                     <div className="col-6 col-md-2 p-1"><Link to="/products/cpd/posters" className="col-12 bg-white rounded-circle d-flex align-items-center "><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/818654/818654_o01_110623/818654" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="Posters"/></Link><h4>Posters</h4></div>
                     <div className="col-6 col-md-2 p-1"><Link to="/products/cpd/carbonlessforms" className="col-12 bg-white rounded-circle d-flex align-items-center"><img className="col-12 rounded-circle" src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/9692093/9692093_o01_070121a/9692093" style={{ "objectFit": "contain", "aspectRatio": "1/1", "width": "100%"}} alt="CF"/></Link><h4>Carbonles Forms</h4></div>
                 </div>
-                <img className="col-12 col-md-4" src={cpdPrices} alt="cpd"/>
+                <img className="col-12 p-4 col-md-4" src={cpdPrices} alt="cpd"/>
             </div>
         </div>
     );

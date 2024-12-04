@@ -34,6 +34,11 @@ import Telephones from "./Products/Tech/Telephones.json";
 import Calculators from "./Products/Tech/Calculators.json";
 
 import ThermalPaper from "./Products/Supplies/ThermalPaper.json";
+import FileFolders from "./Products/Supplies/FileFolders.json";
+import Envelopes from './Products/Supplies/Envelopes.json';
+import LabelPaper from './Products/Supplies/LabelPaper.json';
+import Binders from './Products/Supplies/Binders.json';
+import BusinessForms from './Products/Supplies/Forms.json';
 
 function App() {
   
@@ -219,6 +224,11 @@ function App() {
       {
           const data = {
             "thermalpaper": ThermalPaper,
+            "filefolders": FileFolders,
+            "envelopes": Envelopes,
+            "labels": LabelPaper,
+            "binders": Binders,
+            "forms": BusinessForms
           }
   
           for(let k in data)

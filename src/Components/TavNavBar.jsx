@@ -37,7 +37,12 @@ function TavNarBar()
                 </Nav>
                 <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Supplies" id="basic-nav-dropdown">
+                    <NavDropdown.Item as={Link} to="/products/supplies/labels">Labels</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/supplies/envelopes">Envelopes</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/supplies/filefolders">File Folders</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/supplies/binders">Binders</NavDropdown.Item>
                     <NavDropdown.Item as={Link} to="/products/supplies/thermalpaper">Thermal Paper</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/products/supplies/forms">Business Forms</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
