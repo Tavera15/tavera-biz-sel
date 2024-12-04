@@ -8,12 +8,13 @@ function TavNarBar()
     const [expand, setExpand] = useState(false)
 
     return(
-        <Navbar expanded={expand} expand="lg" bg="info" data-bs-theme="light" className="bg-body-tertiary navbar-dark col-12 p-3" sticky="top">
+        <Navbar expanded={expand} expand="lg" bg="info" data-bs-theme="light" className="bg-body-tertiary navbar-dark col-12 p-3" sticky="">
             <Container>
                 <Navbar.Brand className="navbar-brand" as={Link} to="/">Home</Navbar.Brand>
                 <Navbar.Toggle onClick={() => setExpand(!expand)} aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
-                <Nav as={Navbar.Brand} className="navbar-brand mr-auto" style={{"height": "100%"}}>
+                    
+                <Nav className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Ink & Toner" id="basic-nav-dropdown">
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/ink/hp">HP</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/ink/brother">Brother</NavDropdown.Item>
@@ -22,7 +23,7 @@ function TavNarBar()
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/ink/od">OD Brand</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
+                <Nav className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Printers" id="basic-nav-dropdown">
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/printers/hp">HP</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/printers/brother">Brother</NavDropdown.Item>
@@ -30,14 +31,14 @@ function TavNarBar()
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/printers/epson">Epson</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
+                <Nav className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Furniture" id="basic-nav-dropdown">
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/chairs">Chairs</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/desks">Desks</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/casesanddrawers">Bookcases & Drawers</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
+                <Nav className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Supplies" id="basic-nav-dropdown">
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/labels">Labels</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/envelopes">Envelopes</NavDropdown.Item>
@@ -47,13 +48,13 @@ function TavNarBar()
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/forms">Business Forms</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
+                <Nav className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Tech" id="basic-nav-dropdown">
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/tech/calculators">Calculators</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/tech/telephones">Telephones</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
-                <Nav as={Navbar.Brand} className="navbar-brand me-auto">
+                <Nav className="navbar-brand me-auto">
                     <NavDropdown className="navbar-brand" title="Copy & Print" id="basic-nav-dropdown">
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/self-service/self-service">Self-Service</NavDropdown.Item>
                     <NavDropdown.Divider />

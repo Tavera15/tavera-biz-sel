@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ProductCard from "../Components/ProductCard";
 
-function ProductsPage({products, isLoaded, addToCart})
+function ProductsPage({products, isLoaded, addToCart, cart})
 {
     const [items, setItems] = useState([]);
     const {category, brand} = useParams();
@@ -54,6 +54,7 @@ function ProductsPage({products, isLoaded, addToCart})
                 ?   filterItems.map((p, i) => {
                         return (
                             <ProductCard
+                                isInCart = {cart.filter((e) => e.sku === p.sku).length > 0}
                                 item={p}
                                 sku={p.sku} 
                                 price={p.price} 

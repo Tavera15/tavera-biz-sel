@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Button, Card} from 'react-bootstrap';
 
-function ProductCard({item, sku, name, price, defQty, discount, btnText, btnAction, enableQty})
+function ProductCard({item, sku, name, price, defQty, discount, btnText, btnAction, enableQty, isInCart})
 {
     const [qty, setQty] = useState(defQty);
 
@@ -29,18 +29,18 @@ function ProductCard({item, sku, name, price, defQty, discount, btnText, btnActi
                     alt={sku}
                 />
                 <Card.Body className="bg-info p-0 col-12 d-flex">
-                    <form className="bg-info p-0 col-12 d-flex" onSubmit={(e) => handleSubmit(e)}>
+                    <form className={`${isInCart ? "bg-dark" : "bg-info"} p-0 col-12 d-flex`} onSubmit={(e) => handleSubmit(e)}>
 
                         <div className="p-0 m-0 d-flex row justify-content-center">
                             <div className="pt-2 pb-2">
-                                <Card.Title style={{"color": "#000"}}><strong>{name}</strong></Card.Title>
-                                <Card.Subtitle style={{"color": "#000"}}>SKU: {sku}</Card.Subtitle>
+                                <Card.Title style={{"color": isInCart ? "#fff" : "#000"}}><strong>{name}</strong></Card.Title>
+                                <Card.Subtitle style={{"color": isInCart ? "#fff" : "#000"}}>SKU: {sku}</Card.Subtitle>
                             </div>
 
                             <div className="p-0 align-self-end d-flex row border-top">
-                                <h5 style={{"color": "#000"}} className="p-2 m-0 border-bottom">Unit Price: ${(price).toFixed(2)}</h5>
+                                <h5 style={{"color": isInCart ? "#fff" : "#000"}} className="p-2 m-0 border-bottom">Unit Price: ${(price).toFixed(2)}</h5>
                                 <h5 style={{"color": "#CC0000"}} className="p-2 m-0">Regular Price: ${(price * qty).toFixed(2)}</h5>
-                                <h5 style={{"backgroundColor": "white", "color": "#41b5ce"}} className="p-2">Business Select Price: <strong>${((price * qty) - (((price * qty) * discount) / 100)).toFixed(2)}</strong></h5>
+                                <h5 style={{"color": "#41b5ce"}} className={`p-2 ${isInCart ? "bg-dark" : "bg-light"}`} >Business Select Price: <strong>${((price * qty) - (((price * qty) * discount) / 100)).toFixed(2)}</strong></h5>
                                 <h5 style={{"color": "#AAFF00"}}><strong>Savings: ${(((price * qty) * discount) / 100).toFixed(2)}</strong></h5>
 
                                 <div className="m-0">
