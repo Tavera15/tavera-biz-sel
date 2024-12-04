@@ -45,7 +45,7 @@ function ProductCard({item, sku, name, price, defQty, discount, btnText, btnActi
 
                                 <div className="m-0">
                                     <input disabled={!enableQty} value={qty} onChange={(e) => setQty(e.target.value)} className="form-control text-center" type="number" min={1}/>
-                                    <Button className="btn-md align-self-end col-12 mt-2 mb-1" variant="primary" type="submit">{btnText}</Button>
+                                    <Button className="btn-md align-self-end col-12 mt-2 mb-1" variant={`${btnText === "Delete" ? "danger" : "primary"}`} type="submit">{btnText}</Button>
                                 </div>
                             </div>
                         </div>
