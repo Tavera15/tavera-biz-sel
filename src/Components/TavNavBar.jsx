@@ -1,64 +1,66 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { NavDropdown } from "react-bootstrap";
 
 function TavNarBar()
 {
+    const [expand, setExpand] = useState(false)
+
     return(
-        <Navbar collapseOnSelect={true} expand="lg" bg="info" data-bs-theme="light" className="bg-body-tertiary navbar-dark col-12 p-3" sticky="top">
+        <Navbar expanded={expand} expand="lg" bg="info" data-bs-theme="light" className="bg-body-tertiary navbar-dark col-12 p-3" sticky="top">
             <Container>
                 <Navbar.Brand className="navbar-brand" as={Link} to="/">Home</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
+                <Navbar.Toggle onClick={() => setExpand(!expand)} aria-controls="navbarScroll" />
+                <Navbar.Collapse id="navbarScroll">
+                <Nav as={Navbar.Brand} className="navbar-brand mr-auto" style={{"height": "100%"}}>
                     <NavDropdown className="navbar-brand" title="Ink & Toner" id="basic-nav-dropdown">
-                    <NavDropdown.Item as={Link} to="/products/ink/hp">HP</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/ink/brother">Brother</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/ink/canon">Canon</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/ink/epson">Epson</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/ink/od">OD Brand</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/ink/hp">HP</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/ink/brother">Brother</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/ink/canon">Canon</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/ink/epson">Epson</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/ink/od">OD Brand</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Printers" id="basic-nav-dropdown">
-                    <NavDropdown.Item as={Link} to="/products/printers/hp">HP</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/printers/brother">Brother</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/printers/canon">Canon</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/printers/epson">Epson</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/printers/hp">HP</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/printers/brother">Brother</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/printers/canon">Canon</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/printers/epson">Epson</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Furniture" id="basic-nav-dropdown">
-                    <NavDropdown.Item as={Link} to="/products/furniture/chairs">Chairs</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/furniture/desks">Desks</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/furniture/casesanddrawers">Bookcases & Drawers</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/chairs">Chairs</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/desks">Desks</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/casesanddrawers">Bookcases & Drawers</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Supplies" id="basic-nav-dropdown">
-                    <NavDropdown.Item as={Link} to="/products/supplies/labels">Labels</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/supplies/envelopes">Envelopes</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/supplies/filefolders">File Folders</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/supplies/binders">Binders</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/supplies/thermalpaper">Thermal Paper</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/supplies/forms">Business Forms</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/labels">Labels</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/envelopes">Envelopes</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/filefolders">File Folders</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/binders">Binders</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/thermalpaper">Thermal Paper</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/forms">Business Forms</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav as={Navbar.Brand} className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Tech" id="basic-nav-dropdown">
-                    <NavDropdown.Item as={Link} to="/products/tech/calculators">Calculators</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/tech/telephones">Telephones</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/tech/calculators">Calculators</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/tech/telephones">Telephones</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav as={Navbar.Brand} className="navbar-brand me-auto">
                     <NavDropdown className="navbar-brand" title="Copy & Print" id="basic-nav-dropdown">
-                    <NavDropdown.Item as={Link} to="/products/self-service/self-service">Self-Service</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/self-service/self-service">Self-Service</NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item as={Link} to="/products/cpd/lettercopies">Letter Copies</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/cpd/posters">Posters</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/cpd/carbonlessforms">Carbonless Forms</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/products/cpd/blueprints">Blueprints</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/cpd/lettercopies">Letter Copies</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/cpd/posters">Posters</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/cpd/carbonlessforms">Carbonless Forms</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/cpd/blueprints">Blueprints</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
 
