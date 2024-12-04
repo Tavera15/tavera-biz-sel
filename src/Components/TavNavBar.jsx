@@ -66,7 +66,7 @@ function TavNarBar()
                 </Nav>
 
                 <hr />
-                <Navbar.Brand className="navbar-brand" as={Link} to="/cart">Cart</Navbar.Brand>
+                <Navbar.Brand className="navbar-brand" onClick={() => setExpand(false)} as={Link} to="/cart">Cart</Navbar.Brand>
                 </Navbar.Collapse>
 
             </Container>
