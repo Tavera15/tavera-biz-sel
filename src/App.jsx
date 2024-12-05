@@ -24,14 +24,14 @@ import CanonPrinters from "./Products/Printers/Canon.json";
 
 import Chairs from "./Products/Furniture/Chairs.json";
 import Desks from "./Products/Furniture/Desks.json";
-import CasesnDrawers from "./Products/Furniture/CasesAndDrawers.json";
+import Bookcases from "./Products/Furniture/Bookcases.json";
+import CabinetsnDrawers from "./Products/Furniture/CabinetsAndDrawers.json";
 
 import SelfServ from "./Products/CPD/SelfService.json";
 import FullServ from "./Products/CPD/FullService.json";
 import TavFootBar from './Components/TavFootbar';
 
 import Telephones from "./Products/Tech/Telephones.json";
-import Calculators from "./Products/Tech/Calculators.json";
 
 import ThermalPaper from "./Products/Supplies/ThermalPaper.json";
 import FileFolders from "./Products/Supplies/FileFolders.json";
@@ -39,6 +39,8 @@ import Envelopes from './Products/Supplies/Envelopes.json';
 import LabelPaper from './Products/Supplies/LabelPaper.json';
 import Binders from './Products/Supplies/Binders.json';
 import BusinessForms from './Products/Supplies/Forms.json';
+import Calculators from "./Products/Tech/Calculators.json";
+import ElectronicLabels from "./Products/Supplies/ElectronicLabels.json";
 
 function App() {
   
@@ -135,7 +137,8 @@ function App() {
         const data = {
           "chairs": Chairs,
           "desks": Desks,
-          "casesanddrawers": CasesnDrawers
+          "bookcases": Bookcases,
+          "cabinetsanddrawers": CabinetsnDrawers
         }
 
         for(let k in data)
@@ -202,7 +205,6 @@ function App() {
       {
           const data = {
             "telephones": Telephones,
-            "calculators": Calculators
           }
   
           for(let k in data)
@@ -228,7 +230,9 @@ function App() {
             "envelopes": Envelopes,
             "labels": LabelPaper,
             "binders": Binders,
-            "forms": BusinessForms
+            "forms": BusinessForms,
+            "electroniclabels": ElectronicLabels,
+            "calculators": Calculators,
           }
   
           for(let k in data)

@@ -8,7 +8,7 @@ function TavNarBar()
     const [expand, setExpand] = useState(false)
 
     return(
-        <Navbar expanded={expand} expand="lg" bg="info" data-bs-theme="light" className="bg-body-tertiary navbar-dark col-12 p-3" sticky="">
+        <Navbar expanded={expand} expand="lg" bg="info" data-bs-theme="light" className="bg-body-tertiary navbar-dark col-12 p-3">
             <Container>
                 <Navbar.Brand className="navbar-brand" as={Link} to="/">Home</Navbar.Brand>
                 <Navbar.Toggle onClick={() => setExpand(!expand)} aria-controls="navbarScroll" />
@@ -46,11 +46,12 @@ function TavNarBar()
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/binders">Binders</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/thermalpaper">Thermal Paper</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/forms">Business Forms</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/electroniclabels">Electronic Labels</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/calculators">Calculators</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav className="navbar-brand mr-auto">
                     <NavDropdown className="navbar-brand" title="Tech" id="basic-nav-dropdown">
-                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/tech/calculators">Calculators</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/tech/telephones">Telephones</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>

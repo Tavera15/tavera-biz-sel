@@ -1,0 +1,93 @@
+[
+    {
+        "name": "BROTHER P-TOUCH PTM95 HANDHELD LABEL MAKER",
+        "sku": "593247",
+        "price": 28.79,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "BROTHER P-TOUCH PTH110 HANDHELD LABEL MAKER",
+        "sku": "938678",
+        "price": 29.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "BROTHER P-TOUCH EVERYDAY LABEL MAKER PT-D220",
+        "sku": "7164607",
+        "price": 42.89,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "BROTHER P-TOUCH ADVANCED LABEL MAKER PT-D410",
+        "sku": "7164966",
+        "price": 59.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "DYMO LABELMANAGER 160 HANDHELD LABEL MAKER",
+        "sku": "659236",
+        "price": 47.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "DYMO LABELMANAGER 360D DESKTOP LABEL MAKER",
+        "sku": "356058",
+        "price": 108.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "BROTHER P-TOUCH BLUETOOTH LABEL MAKER PT-D460BT",
+        "sku": "7165440",
+        "price": 84.79,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "BROTHER P-TOUCH BLUETOOTH LABEL MAKER PT-D610BT",
+        "sku": "7166225",
+        "price": 114.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "BROTHER QL-800 LABEL THERMAL PRINTER",
+        "sku": "381038",
+        "price": 124.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "DYMO LABEL WRITER 550 TURBO LABEL PRINTER",
+        "sku": "5567604",
+        "price": 185.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "DYMO LABELWRITER 450 TT THERMAL PRINTER",
+        "sku": "356076",
+        "price": 310.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "DYMO LETRATAG 200B BT LABEL MAKER PRINTER",
+        "sku": "9795072",
+        "price": 41.99,
+        "discount": 0,
+        "qty": 1
+    },
+    {
+        "name": "DYMO LETRATAG LT-100H PLUS HANDHELD LABELMAKER",
+        "sku": "571842",
+        "price": 44.99,
+        "discount": 0,
+        "qty": 1
+    }
+]

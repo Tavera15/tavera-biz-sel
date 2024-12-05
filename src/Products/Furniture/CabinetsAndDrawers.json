@@ -1,26 +1,5 @@
 [
     {
-        "name": "MAGELLAN BOOKCASES 5 SHELF ESPRESSO",
-        "sku": "547677",
-        "price": 129.99,
-        "discount": 0,
-        "qty": 1
-    },
-    {
-        "name": "BOOKCASE/FILE COLLECTION 5 SHELF MULLED CHERRY",
-        "sku": "8984522",
-        "price": 179.99,
-        "discount": 0,
-        "qty": 1
-    },
-    {
-        "name": "OPTIMUM BOOKCASES 3 SHELF CHALKED CHESTNUT",
-        "sku": "6633871",
-        "price": 159.99,
-        "discount": 0,
-        "qty": 1
-    },
-    {
         "name": "BOOKCASE/FILE COLLECTION VERTICAL ARCTIC WHITE",
         "sku": "8124338",
         "price": 159.99,
