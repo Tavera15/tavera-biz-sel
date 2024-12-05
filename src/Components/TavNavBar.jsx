@@ -35,7 +35,8 @@ function TavNarBar()
                     <NavDropdown className="navbar-brand" title="Furniture" id="basic-nav-dropdown">
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/chairs">Chairs</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/desks">Desks</NavDropdown.Item>
-                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/casesanddrawers">Bookcases & Drawers</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/bookcases">Bookcases</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/cabinetsanddrawers">File Cabinets & Drawers</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav className="navbar-brand mr-auto">
