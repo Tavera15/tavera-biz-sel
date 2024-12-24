@@ -26,6 +26,7 @@ import Chairs from "./Products/Furniture/Chairs.json";
 import Desks from "./Products/Furniture/Desks.json";
 import Bookcases from "./Products/Furniture/Bookcases.json";
 import CabinetsnDrawers from "./Products/Furniture/CabinetsAndDrawers.json";
+import Whiteboards from "./Products/Furniture/Whiteboards.json";
 
 import SelfServ from "./Products/CPD/SelfService.json";
 import FullServ from "./Products/CPD/FullService.json";
@@ -41,6 +42,8 @@ import Binders from './Products/Supplies/Binders.json';
 import BusinessForms from './Products/Supplies/Forms.json';
 import Calculators from "./Products/Tech/Calculators.json";
 import ElectronicLabels from "./Products/Supplies/ElectronicLabels.json";
+import Bags from "./Products/Supplies/Bags.json";
+import Shredders from "./Products/Supplies/Shredders.json"
 
 function App() {
   
@@ -138,7 +141,8 @@ function App() {
           "chairs": Chairs,
           "desks": Desks,
           "bookcases": Bookcases,
-          "cabinetsanddrawers": CabinetsnDrawers
+          "cabinetsanddrawers": CabinetsnDrawers,
+          "whiteboards": Whiteboards,
         }
 
         for(let k in data)
@@ -233,6 +237,8 @@ function App() {
             "forms": BusinessForms,
             "electroniclabels": ElectronicLabels,
             "calculators": Calculators,
+            "bags": Bags,
+            "shredders": Shredders
           }
   
           for(let k in data)

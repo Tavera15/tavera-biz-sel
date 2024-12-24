@@ -37,6 +37,7 @@ function TavNarBar()
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/desks">Desks</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/bookcases">Bookcases</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/cabinetsanddrawers">File Cabinets & Drawers</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/furniture/whiteboards">Whiteboards</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav className="navbar-brand mr-auto">
@@ -49,6 +50,8 @@ function TavNarBar()
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/forms">Business Forms</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/electroniclabels">Electronic Labels</NavDropdown.Item>
                     <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/calculators">Calculators</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/bags">Bags</NavDropdown.Item>
+                    <NavDropdown.Item onClick={() => setExpand(false)} as={Link} to="/products/supplies/shredders">Shredders</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav className="navbar-brand mr-auto">
