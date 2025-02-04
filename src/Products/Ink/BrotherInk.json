@@ -198,14 +198,14 @@
     {
         "name": "BROTHER LC201BKS BLACK INK",
         "sku": "994193",
-        "price": 21.39,
+        "price": 17.99,
         "discount": 0,
         "qty": 1
     },
     {
         "name": "BROTHER LC2013PKS TRICOLOR INK 3-PK",
         "sku": "994223",
-        "price": 30.49,
+        "price": 25.99,
         "discount": 0,
         "qty": 1
     },
@@ -401,7 +401,7 @@
     {
         "name": "BROTHER LC3029BKS BLACK INK CARTRIDGE",
         "sku": "955310",
-        "price": 33.49,
+        "price": 28.99,
         "discount": 0,
         "qty": 1
     },
